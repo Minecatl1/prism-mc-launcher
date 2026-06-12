@@ -64,7 +64,7 @@ jobs:
               tar -xvf "$archive" && rm "$archive"
             fi
           done
-          mv Mindustry Mindustry.x86_64 || true
+          mv PrismLauncher PrismLauncher.x86_64 || true
           mv Mindustry.json Mindustry.x86_64.json || true
           # 7. AUTOMATED BINARY DETECTION SCAN
           echo "Scanning for Linux binaries..."
